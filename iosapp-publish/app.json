@@ -3,7 +3,7 @@
   "identifier": "net.durranis.iptv.source",
   "subtitle": "IPTV and Bridge Tools by Imran",
   "description": "Official source for ID IPTV Pro and cross-platform bridge tools.",
-  "iconURL": "[https://durranis.net/appicon.png](https://durranis.net/appicon.png)",
+  "iconURL": "[https://raw.githubusercontent.com/imrandurranee/IDOTTFTV/refs/heads/main/iosapp-publish/appicon.png](https://raw.githubusercontent.com/imrandurranee/IDOTTFTV/refs/heads/main/iosapp-publish/appicon.png)",
   "website": "[https://durranis.net](https://durranis.net)",
   "apps": [
     {
@@ -13,9 +13,9 @@
       "version": "1.32",
       "versionDate": "2026-05-07",
       "versionDescription": "Stable release with enhanced category syncing and Fire TV bridge support.",
-      "downloadURL": "[https://durranis.net/downloads/ID_IPTV_Pro_1.32.ipa](https://durranis.net/downloads/ID_IPTV_Pro_1.32.ipa)",
+      "downloadURL": "[https://raw.githubusercontent.com/imrandurranee/IDOTTFTV/refs/heads/main/iosapp-publish/ID_IPTV_Pro_1.32.ipa](https://raw.githubusercontent.com/imrandurranee/IDOTTFTV/refs/heads/main/iosapp-publish/ID_IPTV_Pro_1.32.ipa)",
       "localizedDescription": "Professional IPTV player for iOS. Features seamless integration with Xtream Codes and customized UI for high-performance streaming.",
-      "iconURL": "[https://durranis.net/appicon.png](https://durranis.net/appicon.png)",
+      "iconURL": "[https://raw.githubusercontent.com/imrandurranee/IDOTTFTV/refs/heads/main/iosapp-publish/appicon.png)",
       "tintColor": "#007AFF",
       "size": 48500000,
       "permissions": [
@@ -29,8 +29,8 @@
         }
       ],
       "screenshotURLs": [
-        "[https://durranis.net/screenshot1.png](https://durranis.net/screenshot1.png)",
-        "[https://durranis.net/screenshot2.png](https://durranis.net/screenshot2.png)"
+        "[https://raw.githubusercontent.com/imrandurranee/IDOTTFTV/refs/heads/main/iosapp-publish/screenshot1.png](https://raw.githubusercontent.com/imrandurranee/IDOTTFTV/refs/heads/main/iosapp-publish/screenshot1.png)",
+        "[https://raw.githubusercontent.com/imrandurranee/IDOTTFTV/refs/heads/main/iosapp-publish/screenshot2.png](https://raw.githubusercontent.com/imrandurranee/IDOTTFTV/refs/heads/main/iosapp-publish/screenshot2.png)"
       ]
     }
   ]
