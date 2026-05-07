@@ -1,0 +1,47 @@
+{
+  "name": "ID Apps Source",
+  "identifier": "net.durranis.iptv.source",
+  "subtitle": "IPTV and Bridge Tools by Imran",
+  "description": "Official source for ID IPTV Pro and cross-platform bridge tools.",
+  "iconURL": "[https://durranis.net/appicon.png](https://durranis.net/appicon.png)",
+  "website": "[https://durranis.net](https://durranis.net)",
+  "apps": [
+    {
+      "name": "ID IPTV Pro",
+      "bundleIdentifier": "com.durranis.idiptv.pro",
+      "developerName": "Imran",
+      "version": "1.32",
+      "versionDate": "2026-05-07",
+      "versionDescription": "Stable release with enhanced category syncing and Fire TV bridge support.",
+      "downloadURL": "[https://durranis.net/downloads/ID_IPTV_Pro_1.32.ipa](https://durranis.net/downloads/ID_IPTV_Pro_1.32.ipa)",
+      "localizedDescription": "Professional IPTV player for iOS. Features seamless integration with Xtream Codes and customized UI for high-performance streaming.",
+      "iconURL": "[https://durranis.net/appicon.png](https://durranis.net/appicon.png)",
+      "tintColor": "#007AFF",
+      "size": 48500000,
+      "permissions": [
+        {
+          "type": "background-audio",
+          "usageDescription": "Allows audio to continue playing while you use other apps or lock your screen."
+        },
+        {
+          "type": "network",
+          "usageDescription": "Required to stream content from your IPTV provider."
+        }
+      ],
+      "screenshotURLs": [
+        "[https://durranis.net/screenshot1.png](https://durranis.net/screenshot1.png)",
+        "[https://durranis.net/screenshot2.png](https://durranis.net/screenshot2.png)"
+      ]
+    }
+  ]
+}
+Tips for 2026:
+
+*   **Identifier Consistency:** The `identifier` at the top (e.g., `net.durranis.iptv.source`) is what SideStore uses to remember the source. If you change this later, your friend will have to delete and re-add the source.
+*   **Bundle ID Match:** The `bundleIdentifier` **must** match your Xcode project's `CFBundleIdentifier` exactly. If they don't match, the "Open" button in SideStore won't work after installation.
+*   **Size in Bytes:** The `size` field is in bytes. (For a 48.5 MB file, it is approximately `48500000`).
+*   **The "itms" Link:** To make it even easier for your friend, you can give them this special URL. When they click it, it will open SideStore and automatically ask to add your source:
+> `sidestore://source?url=[https://durranis.net/apps.json](https://durranis.net/apps.json)`
+
+### Why use a source instead of just sending the file?
+By hosting this JSON, whenever you fix a bug in your IPTV code and export a new version (e.g., 1.33), you just update this file. Your friend will see a notification in SideStore saying **"Update Available"** and can update wirelessly with one tap.
