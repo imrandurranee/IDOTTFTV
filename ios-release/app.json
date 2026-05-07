@@ -1,16 +1,16 @@
 {
     "$schema": "https://github.com/SideStore/sidestore-source-types/raw/main/schema.json",
-    "name": "ID Apps Source",
+    "name": "ID IPTV Apps Source",
     "identifier": "net.durranis.iptv.source",
-    "subtitle": "IPTV and Bridge Tools by Imran",
-    "description": "Official source for ID IPTV Pro and cross-platform bridge tools hosted at durranis.net.",
+    "subtitle": "IPTV Tools by ID",
+    "description": "Official source for ID IPTV Pro and cross-platform bridge tools",
     "iconURL": "https://raw.githubusercontent.com/imrandurranee/IDOTTFTV/main/ios-release/appicon.png",
-    "website": "https://durranis.net",
+    "website": "https://nowebsite",
     "apps": [
       {
         "name": "ID IPTV Pro",
         "bundleIdentifier": "com.durranis.idiptv.pro",
-        "developerName": "Imran",
+        "developerName": "ID",
         "subtitle": "Professional IPTV Player",
         "localizedDescription": "Professional IPTV player for iOS. Features seamless integration with Xtream Codes and customized UI for high-performance streaming.",
         "iconURL": "https://raw.githubusercontent.com/imrandurranee/IDOTTFTV/main/ios-release/appicon.png",
