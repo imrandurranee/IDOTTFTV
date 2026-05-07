@@ -1,36 +1,43 @@
 {
+  "$schema": "https://github.com/SideStore/sidestore-source-types/raw/main/schema.json",
   "name": "ID Apps Source",
   "identifier": "net.durranis.iptv.source",
   "subtitle": "IPTV and Bridge Tools by Imran",
-  "description": "Official source for ID IPTV Pro and cross-platform bridge tools.",
-  "iconURL": "[https://raw.githubusercontent.com/imrandurranee/IDOTTFTV/refs/heads/main/iosapp-publish/appicon.png](https://raw.githubusercontent.com/imrandurranee/IDOTTFTV/refs/heads/main/iosapp-publish/appicon.png)",
-  "website": "[https://durranis.net](https://durranis.net)",
+  "description": "Official source for ID IPTV Pro and cross-platform bridge tools hosted at durranis.net.",
+  "iconURL": "https://raw.githubusercontent.com/imrandurranee/IDOTTFTV/main/iosapp-publish/appicon.png",
+  "website": "https://durranis.net",
   "apps": [
     {
       "name": "ID IPTV Pro",
       "bundleIdentifier": "com.durranis.idiptv.pro",
       "developerName": "Imran",
-      "version": "1.32",
-      "versionDate": "2026-05-07",
-      "versionDescription": "Stable release with enhanced category syncing and Fire TV bridge support.",
-      "downloadURL": "[https://raw.githubusercontent.com/imrandurranee/IDOTTFTV/refs/heads/main/iosapp-publish/ID_IPTV_Pro_1.32.ipa](https://raw.githubusercontent.com/imrandurranee/IDOTTFTV/refs/heads/main/iosapp-publish/ID_IPTV_Pro_1.32.ipa)",
+      "subtitle": "Professional IPTV Player",
       "localizedDescription": "Professional IPTV player for iOS. Features seamless integration with Xtream Codes and customized UI for high-performance streaming.",
-      "iconURL": "[https://raw.githubusercontent.com/imrandurranee/IDOTTFTV/refs/heads/main/iosapp-publish/appicon.png)",
+      "iconURL": "https://raw.githubusercontent.com/imrandurranee/IDOTTFTV/main/iosapp-publish/appicon.png",
       "tintColor": "#007AFF",
-      "size": 48500000,
+      "category": "entertainment",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/imrandurranee/IDOTTFTV/main/iosapp-publish/screenshot1.png",
+        "https://raw.githubusercontent.com/imrandurranee/IDOTTFTV/main/iosapp-publish/screenshot2.png"
+      ],
       "permissions": [
         {
           "type": "background-audio",
-          "usageDescription": "Allows audio to continue playing while you use other apps or lock your screen."
+          "usageDescription": "Allows audio to continue playing while the screen is locked."
         },
         {
           "type": "network",
-          "usageDescription": "Required to stream content from your IPTV provider."
+          "usageDescription": "Required to stream live content."
         }
       ],
-      "screenshotURLs": [
-        "[https://raw.githubusercontent.com/imrandurranee/IDOTTFTV/refs/heads/main/iosapp-publish/screenshot1.png](https://raw.githubusercontent.com/imrandurranee/IDOTTFTV/refs/heads/main/iosapp-publish/screenshot1.png)",
-        "[https://raw.githubusercontent.com/imrandurranee/IDOTTFTV/refs/heads/main/iosapp-publish/screenshot2.png](https://raw.githubusercontent.com/imrandurranee/IDOTTFTV/refs/heads/main/iosapp-publish/screenshot2.png)"
+      "versions": [
+        {
+          "version": "1.32",
+          "date": "2026-05-07",
+          "localizedDescription": "Stable release with enhanced category syncing and Fire TV bridge support.",
+          "downloadURL": "https://raw.githubusercontent.com/imrandurranee/IDOTTFTV/main/iosapp-publish/ID_IPTV_Pro_1.32.ipa",
+          "size": 48500000
+        }
       ]
     }
   ]
