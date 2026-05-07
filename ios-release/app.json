@@ -4,7 +4,7 @@
     "identifier": "net.durranis.iptv.source",
     "subtitle": "IPTV and Bridge Tools by Imran",
     "description": "Official source for ID IPTV Pro and cross-platform bridge tools hosted at durranis.net.",
-    "iconURL": "https://raw.githubusercontent.com/imrandurranee/IDOTTFTV/main/iosapp-publish/appicon.png",
+    "iconURL": "https://raw.githubusercontent.com/imrandurranee/IDOTTFTV/main/ios-release/appicon.png",
     "website": "https://durranis.net",
     "apps": [
       {
@@ -13,12 +13,12 @@
         "developerName": "Imran",
         "subtitle": "Professional IPTV Player",
         "localizedDescription": "Professional IPTV player for iOS. Features seamless integration with Xtream Codes and customized UI for high-performance streaming.",
-        "iconURL": "https://raw.githubusercontent.com/imrandurranee/IDOTTFTV/main/iosapp-publish/appicon.png",
+        "iconURL": "https://raw.githubusercontent.com/imrandurranee/IDOTTFTV/main/ios-release/appicon.png",
         "tintColor": "#007AFF",
         "category": "entertainment",
         "screenshotURLs": [
-          "https://raw.githubusercontent.com/imrandurranee/IDOTTFTV/main/iosapp-publish/screenshot1.png",
-          "https://raw.githubusercontent.com/imrandurranee/IDOTTFTV/main/iosapp-publish/screenshot2.png"
+          "https://raw.githubusercontent.com/imrandurranee/IDOTTFTV/main/ios-release/screenshot1.png",
+          "https://raw.githubusercontent.com/imrandurranee/IDOTTFTV/main/ios-release/screenshot2.png"
         ],
         "permissions": [
           {
@@ -35,7 +35,7 @@
             "version": "1.32",
             "date": "2026-05-07",
             "localizedDescription": "Stable release with enhanced category syncing and Fire TV bridge support.",
-            "downloadURL": "https://raw.githubusercontent.com/imrandurranee/IDOTTFTV/main/iosapp-publish/ID_IPTV_Pro_1.32.ipa",
+            "downloadURL": "https://raw.githubusercontent.com/imrandurranee/IDOTTFTV/main/ios-release/ID_IPTV_Pro_1.32.ipa",
             "size": 48500000
           }
         ]
