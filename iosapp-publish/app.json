@@ -35,13 +35,3 @@
     }
   ]
 }
-Tips for 2026:
-
-*   **Identifier Consistency:** The `identifier` at the top (e.g., `net.durranis.iptv.source`) is what SideStore uses to remember the source. If you change this later, your friend will have to delete and re-add the source.
-*   **Bundle ID Match:** The `bundleIdentifier` **must** match your Xcode project's `CFBundleIdentifier` exactly. If they don't match, the "Open" button in SideStore won't work after installation.
-*   **Size in Bytes:** The `size` field is in bytes. (For a 48.5 MB file, it is approximately `48500000`).
-*   **The "itms" Link:** To make it even easier for your friend, you can give them this special URL. When they click it, it will open SideStore and automatically ask to add your source:
-> `sidestore://source?url=[https://durranis.net/apps.json](https://durranis.net/apps.json)`
-
-### Why use a source instead of just sending the file?
-By hosting this JSON, whenever you fix a bug in your IPTV code and export a new version (e.g., 1.33), you just update this file. Your friend will see a notification in SideStore saying **"Update Available"** and can update wirelessly with one tap.
