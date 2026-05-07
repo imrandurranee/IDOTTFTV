@@ -32,10 +32,10 @@
         ],
         "versions": [
           {
-            "version": "1.32",
+            "version": "1.00",
             "date": "2026-05-07",
             "localizedDescription": "Stable release with enhanced category syncing and Fire TV bridge support.",
-            "downloadURL": "https://raw.githubusercontent.com/imrandurranee/IDOTTFTV/main/ios-release/ID_IPTV_Pro_1.32.ipa",
+            "downloadURL": "https://raw.githubusercontent.com/imrandurranee/IDOTTFTV/main/ios-release/iosapp.ipa",
             "size": 48500000
           }
         ]
