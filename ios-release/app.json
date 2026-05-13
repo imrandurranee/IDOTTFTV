@@ -1,44 +1,51 @@
 {
-    "$schema": "https://github.com/SideStore/sidestore-source-types/raw/main/schema.json",
-    "name": "ID IPTV Apps Source",
-    "identifier": "net.durranis.iptv.source",
-    "subtitle": "IPTV Tools by ID",
-    "description": "Official source for ID IPTV Pro and cross-platform bridge tools",
-    "iconURL": "https://raw.githubusercontent.com/imrandurranee/IDOTTFTV/main/ios-release/appicon.png",
-    "website": "https://nowebsite",
-    "apps": [
-      {
-        "name": "ID IPTV Pro",
-        "bundleIdentifier": "com.durranis.idiptv.pro",
-        "developerName": "ID",
-        "subtitle": "Professional IPTV Player",
-        "localizedDescription": "Professional IPTV player for iOS. Features seamless integration with Xtream Codes and customized UI for high-performance streaming.",
-        "iconURL": "https://raw.githubusercontent.com/imrandurranee/IDOTTFTV/main/ios-release/appicon.png",
-        "tintColor": "#007AFF",
-        "category": "entertainment",
-        "screenshotURLs": [
-          "https://raw.githubusercontent.com/imrandurranee/IDOTTFTV/main/ios-release/screenshot1.png",
-          "https://raw.githubusercontent.com/imrandurranee/IDOTTFTV/main/ios-release/screenshot2.png"
-        ],
-        "permissions": [
-          {
-            "type": "background-audio",
-            "usageDescription": "Allows audio to continue playing while the screen is locked."
-          },
-          {
-            "type": "network",
-            "usageDescription": "Required to stream live content."
-          }
-        ],
-        "versions": [
-          {
-            "version": "1.0",
-            "date": "2026-05-07",
-            "localizedDescription": "Stable release with enhanced category syncing and Fire TV bridge support.",
-            "downloadURL": "https://raw.githubusercontent.com/imrandurranee/IDOTTFTV/main/ios-release/iosapp.ipa",
-            "size": 48500000
-          }
-        ]
-      }
-    ]
-  }
+  "$schema": "https://github.com/SideStore/sidestore-source-types/raw/main/schema.json",
+  "name": "ID IPTV Apps Source",
+  "identifier": "net.durranis.iptv.source",
+  "subtitle": "IPTV Tools by ID",
+  "description": "Official source for ID IPTV Pro and cross-platform bridge tools",
+  "iconURL": "https://raw.githubusercontent.com/imrandurranee/IDOTTFTV/main/ios-release/appicon.png",
+  "website": "https://nowebsite",
+  "apps": [
+    {
+      "name": "ID IPTV Pro",
+      "bundleIdentifier": "com.durranis.idiptv.pro",
+      "developerName": "ID",
+      "subtitle": "Professional IPTV Player",
+      "localizedDescription": "Professional IPTV player for iOS. Features seamless integration with Xtream Codes and customized UI for high-performance streaming.",
+      "iconURL": "https://raw.githubusercontent.com/imrandurranee/IDOTTFTV/main/ios-release/appicon.png",
+      "tintColor": "#007AFF",
+      "category": "entertainment",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/imrandurranee/IDOTTFTV/main/ios-release/screenshot1.png",
+        "https://raw.githubusercontent.com/imrandurranee/IDOTTFTV/main/ios-release/screenshot2.png"
+      ],
+      "permissions": [
+        {
+          "type": "background-audio",
+          "usageDescription": "Allows audio to continue playing while the screen is locked."
+        },
+        {
+          "type": "network",
+          "usageDescription": "Required to stream live content."
+        }
+      ],
+      "versions": [
+        {
+          "version": "1.0.1",
+          "date": "2026-05-13",
+          "localizedDescription": "Stable release with enhanced category syncing and Fire TV bridge support.",
+          "downloadURL": "https://raw.githubusercontent.com/imrandurranee/IDOTTFTV/main/ios-release/iosapp.ipa",
+          "size": 52442061
+        },
+        {
+          "version": "1.0",
+          "date": "2026-05-07",
+          "localizedDescription": "Stable release with enhanced category syncing and Fire TV bridge support.",
+          "downloadURL": "https://raw.githubusercontent.com/imrandurranee/IDOTTFTV/main/ios-release/iosapp.ipa",
+          "size": 48500000
+        }
+      ]
+    }
+  ]
+}
