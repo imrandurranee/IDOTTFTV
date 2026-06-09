@@ -1,0 +1,29 @@
+[push_to_github] === Starting push script at Tue Jun  9 13:49:36 EDT 2026 ===
+[push_to_github] DISABLE_GITHUB_PUSH=0
+[push_to_github] REPO_ROOT=/Users/imran/Documents/workspace/ID-OTT-FireTV-NewLook
+[push_to_github] Changed to directory: /Users/imran/Documents/workspace/ID-OTT-FireTV-NewLook
+[push_to_github] Current branch: main
+[push_to_github] Staging ios-release directory...
+[push_to_github] No changes to commit
+[push_to_github] === Starting push script at Tue Jun  9 13:50:18 EDT 2026 ===
+[push_to_github] DISABLE_GITHUB_PUSH=0
+[push_to_github] REPO_ROOT=/Users/imran/Documents/workspace/ID-OTT-FireTV-NewLook
+[push_to_github] Changed to directory: /Users/imran/Documents/workspace/ID-OTT-FireTV-NewLook
+[push_to_github] Current branch: main
+[push_to_github] Staging ios-release directory...
+[push_to_github] Changes detected, proceeding with commit and push...
+[push_to_github] Changes to be committed:
+  ios-release/app.json
+[push_to_github] Committing with message: Update iOS release artifacts (build: 2026-06-09 13:50:18)
+[main 3fd2373] Update iOS release artifacts (build: 2026-06-09 13:50:18)
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+[push_to_github] Pulling latest changes from origin/main...
+error: cannot pull with rebase: You have unstaged changes.
+error: Please commit or stash them.
+[push_to_github] Pull successful, proceeding to push...
+[push_to_github] Pushing to origin/main...
+To https://github.com/imrandurranee/ID-OTT-FireTv-NewLook.git
+   3c5e4ea..3fd2373  main -> main
+branch 'main' set up to track 'origin/main'.
+[push_to_github] SUCCESS: Pushed to GitHub!
+[push_to_github] === Push script completed successfully ===
