@@ -32,11 +32,11 @@
       ],
       "versions": [
         {
-          "version": "1.0.46",
+          "version": "1.0.47",
           "date": "2026-06-11",
           "localizedDescription": "Stable release with enhanced category syncing and Fire TV bridge support.",
           "downloadURL": "https://raw.githubusercontent.com/imrandurranee/IDOTTFTV/main/ios-release/iosapp.ipa",
-          "size": 53085914
+          "size": 51809883
         }
       ]
     }
